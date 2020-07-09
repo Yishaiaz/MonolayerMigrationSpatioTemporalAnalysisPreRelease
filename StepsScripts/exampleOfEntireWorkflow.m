@@ -67,11 +67,5 @@ params.kymographFeatMetaParams = metaParameters;
 % allMeasuresToProcess = {'speed', 'directionality'};
 % featuresStruct = MultipleExperimentsToFeatures(mainExperimentsDirectory, allMeasuresToProcess, params);
 
-%%   Step #6 - perform PCA analysis; only demonstrated here for speed measurement.
-% featuresByMeasure = unifyFeaturesFromMultipleExperiments(featuresStruct, allMeasuresToProcess);
-
-%%   Bonus Step
-
-%%
 disp('finished running workflow');
 end
